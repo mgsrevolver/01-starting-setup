@@ -26,7 +26,7 @@ function App() {
   return (
     <div>
       <h2>Let's get started! Real time updates?</h2>
-      <Expenses />
+      <Expenses items={expenses} />
     </div>
   )
 }
