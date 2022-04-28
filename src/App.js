@@ -1,6 +1,9 @@
 import Expenses from './components/Expenses'
 
 function App() {
+  const Button = ({ color, children }) => (
+    <button className={color}>{children}</button>
+  )
   const expenses = [
     {
       id: 'e1',
@@ -27,6 +30,7 @@ function App() {
     <div>
       <h2>Let's get started! Real time updates?</h2>
       <Expenses items={expenses} />
+      <Button color="red">I am still a button</Button>
     </div>
   )
 }
