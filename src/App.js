@@ -1,5 +1,4 @@
 import Expenses from './components/Expenses/Expenses'
-import Button from './components/UI/Button'
 
 function App() {
   const expenses = [
@@ -28,7 +27,6 @@ function App() {
     <div>
       <h2>Let's get started! Real time updates?</h2>
       <Expenses items={expenses} />
-      <Button />
     </div>
   )
 }
