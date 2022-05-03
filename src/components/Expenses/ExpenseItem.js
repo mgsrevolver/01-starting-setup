@@ -4,7 +4,10 @@ import Card from '../UI/Card'
 import './ExpenseItem.css'
 
 const ExpenseItem = (props) => {
+  // function clickHandler() {}
   const [title, setTitle] = useState(props.title)
+  // [the value, the updating functon]
+  console.log('expense item reevaluated by react')
 
   const clickHandler = () => {
     setTitle('Updated')
